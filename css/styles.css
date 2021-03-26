@@ -172,7 +172,7 @@ header:hover .menu ul {
   border: 1px solid #fff;
   border-radius: 50%;
   background: url("/images/right-arrow.png") no-repeat;
-  background-size: 14px;
+  background-size: 14px !important;
   background-position: center;
   transition: all ease 0.5s;
   z-index: 99;
