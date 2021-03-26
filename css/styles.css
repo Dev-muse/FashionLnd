@@ -171,8 +171,9 @@ header:hover .menu ul {
   width: 87px;
   border: 1px solid #fff;
   border-radius: 50%;
-  background: url("../images/right-arrow.png"));
-  background-size: 14px;
+  background-image: url("../images/right-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 15px;
   background-position: center;
   transition: all ease 0.5s;
 }
