@@ -236,7 +236,7 @@ header:hover .menu ul {
 }
 
 video {
-  width: 600px;
+  width: 550px;
   height: 100vh;
   object-fit: cover;
   border-radius: 100% 0 0 100%;
@@ -262,6 +262,10 @@ video {
   -webkit-text-stroke: 1px #fff;
   white-space: nowrap;
   animation: infiniteText 10s linear infinite;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes infiniteText {
